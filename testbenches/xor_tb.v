@@ -1,6 +1,6 @@
 `include "modules/gates/xor.v"
 
-module and_tb; reg a, b; wire out; Xor obj(a,
+module xor_tb; reg a, b; wire out; Xor obj(a,
                                            b,
                                            out);
     

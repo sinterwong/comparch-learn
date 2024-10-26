@@ -1,8 +1,8 @@
 `include "modules/gates/nor.v"
 
-module nand_tb; reg a, b; wire out; Nor obj(a,
-                                            b,
-                                            out);
+module nor_tb; reg a, b; wire out; Nor obj(a,
+                                           b,
+                                           out);
     
     initial begin
         a = 0;

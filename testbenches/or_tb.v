@@ -1,8 +1,8 @@
 `include "modules/gates/or.v"
 
-module nand_tb; reg a, b; wire out; Or obj(a,
-                                           b,
-                                           out);
+module or_tb; reg a, b; wire out; Or obj(a,
+                                         b,
+                                         out);
     
     initial begin
         a = 0;

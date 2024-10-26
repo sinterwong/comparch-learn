@@ -1,7 +1,7 @@
 `include "modules/gates/not.v"
 
-module nand_tb; reg a; wire out; Not obj(a,
-                                         out);
+module not_tb; reg a; wire out; Not obj(a,
+                                        out);
     
     initial begin
         a = 0;
